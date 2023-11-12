@@ -8,6 +8,11 @@ dotenv.config({path:'./config.env'})
 app.use(express.json())
 app.use(require('./router/router'))
 
+app.get('/contact',(req,res)=>{
+  res.cookie("jwtoken",'vikash')
+  res.send("hello from contact side")
+})
+
 const middlewear = (req, res, next) => {
   console.log("helllo i am middlewaer");
   next();
