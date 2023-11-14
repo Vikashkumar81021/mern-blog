@@ -23,8 +23,8 @@ function About() {
         <div class="team-member">
             <img src="team-member2.jpg" alt="Team Member 2"/>
             <div>
-                <h3>Jane Smith</h3>
-                <p>Lead Developer</p>
+                <h3>Rohit</h3>
+                <p>Web Developer</p>
             </div>
         </div>
 
