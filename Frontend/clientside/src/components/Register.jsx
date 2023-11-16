@@ -20,7 +20,7 @@ function Register() {
     const { name, email, password, cpassword } = user;
   
     try {
-      const response = await fetch('http://localhost:2000/register', {
+      const response = await fetch('/register', {
         method: 'post',
         headers: {
           'Content-Type': 'application/json',
